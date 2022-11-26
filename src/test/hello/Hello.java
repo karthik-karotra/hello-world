@@ -24,14 +24,9 @@ class Student {
 }
 public class Hello{
     public static void main(String[] args) {
-        Student student = new Student();
-
-        student.setName("Naveed");
-        System.out.println(student.getName());
-        Scanner sc = new Scanner(System.in);
-
-        student.setRoll_no(sc.nextInt());
-        System.out.println(student.getRoll_no());
+        double no = 1.5;
+        System.out.println(Math.floor(no));
+        System.out.println(Math.ceil(no));
 
 
     }
