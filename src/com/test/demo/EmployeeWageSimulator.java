@@ -33,5 +33,6 @@ public class EmployeeWageSimulator {
         }
         totalEarningInAMonth = totalWorkingHours * WagePerHour;
         System.out.println("Total Earning earned in 20 days are " +totalEarningInAMonth);
+        System.out.println("Hello Git User");
     }
 }
